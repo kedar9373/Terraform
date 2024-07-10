@@ -1,5 +1,7 @@
 provider "aws" {
   region = "sa-east-1"
+access-key = xxxxxxxxxxxx
+secret-key = xxxxxxxxxxxx
 }
 
 resource "aws_vpc" "my_vpc" {
